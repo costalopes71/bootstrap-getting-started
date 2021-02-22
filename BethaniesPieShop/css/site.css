@@ -4,3 +4,12 @@ body {
     background-image: url('../images/pattern.png');
     background-repeat: repeat;
 }
+
+.jumbotron {
+    height: 40vh;
+}
+
+.jumbotron-detail-apple-pie {
+    background: url('../images/products/applepie.jpg') no-repeat fixed;
+    background-size: cover;
+}
