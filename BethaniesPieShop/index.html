@@ -25,6 +25,10 @@
                     <img src="images/pie.png" width="30" height="30" class="d-inline-block align-top" alt="Bethnie Pies logo">
                     Bethany's Pie Shop
                 </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 
                 <div class="collapse navbar-collapse" id="navbarCollapse">
 
@@ -32,9 +36,18 @@
                         <li class="nav-item active">
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="allpies.html">Pies</a>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pies</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="allpies.html">Fruit pies</a>
+                                <a class="dropdown-item" href="allpies.html">Cheese cake</a>
+                                <a class="dropdown-item" href="seasonalpies.html">Seasonal pies</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="allpies.html">All pies</a>
+                            </div>
                         </li>
+
                         <li class="nav-item">
                             <a class="nav-link" href="order.html">Order</a>
                         </li>
